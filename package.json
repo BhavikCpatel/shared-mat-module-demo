@@ -9,8 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build-stats": "ng build --stats-json",
-    "stats": "npx webpack-bundle-analyzer ./dist/ng-performance/stats-es2015.json",
-    "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/ng-performance/stats-es2015.json"
+    "stats": "npx webpack-bundle-analyzer ./dist/demoapp/stats-es2015.json",
+    "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/demoapp/stats-es2015.json"
   },
   "private": true,
   "dependencies": {
