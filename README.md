@@ -1,6 +1,10 @@
 # Demoapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2 to verify the impact of using shared material modules for the blog post - [Stop using shared material module - Santosh Yadav](https://indepth.dev/stop-using-shared-material-module/)
+
+Based on my analysis: if you only use required material modules in the shared material module, you might not pay the penalty that Santosh is talking about. The problem in his blog is he is comparing a scenaraio where the shared material module is importing unwanted modules.
+
+Based on my analysis, I got **666.09 KB using the shared material module** vs **665.37 KB using material modules directly** in the sub modules.
 
 ## Development server
 
