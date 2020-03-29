@@ -10,7 +10,8 @@
     "e2e": "ng e2e",
     "build-stats": "ng build --stats-json",
     "stats": "npx webpack-bundle-analyzer ./dist/demoapp/stats-es2015.json",
-    "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/demoapp/stats-es2015.json"
+    "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/demoapp/stats-es2015.json",
+    "explore": "ng build --prod --source-map && source-map-explorer dist/demoapp/*.js"
   },
   "private": true,
   "dependencies": {
@@ -45,6 +46,7 @@
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "protractor": "~5.4.3",
+    "source-map-explorer": "^2.4.1",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5",
