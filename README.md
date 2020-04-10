@@ -6,6 +6,8 @@ Based on my analysis: if you only use required material modules in the shared ma
 
 Based on my analysis, I got **666.09 KB using the shared material module** vs **665.37 KB using material modules directly** in the sub modules.
 
+Todo: Need to check the impact of having too many material modules in one of the app module where other modules only uses few material modules [Hopefully, we should see a big difference in build size]
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
