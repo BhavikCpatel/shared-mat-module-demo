@@ -11,7 +11,7 @@
     "build-stats": "ng build --stats-json",
     "stats": "npx webpack-bundle-analyzer ./dist/demoapp/stats-es2015.json",
     "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/demoapp/stats-es2015.json",
-    "explore": "ng build --prod --source-map && source-map-explorer dist/demoapp/*.js"
+    "explore": "ng build --prod --vendor-chunk --source-map && source-map-explorer dist/demoapp/*.js"
   },
   "private": true,
   "dependencies": {
